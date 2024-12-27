@@ -1,0 +1,95 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Start" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Enter text for coding"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/et"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on compatible button"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnSh"
+        android:onClick="goShift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shift coding method" />
+
+    <Button
+        android:id="@+id/btnRev"
+        android:onClick="goRev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reverse coding method" />
+
+    <Button
+        android:id="@+id/btnZz"
+        android:onClick="goZz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zigzag coding method" />
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnBack"
+            android:onClick="aboutapps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About app" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                " />
+
+        <Button
+            android:id="@+id/button2"
+            android:onClick="about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About autors" />
+
+    </TableRow>
+
+</TableLayout>
